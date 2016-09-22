@@ -57,6 +57,10 @@ set( thriftcpp_SOURCES
    src/thrift/transport/TServerSocket.cpp
    src/thrift/transport/TTransportUtils.cpp
    src/thrift/transport/TBufferTransports.cpp
+   src/thrift/transport/TSaslTransport.cpp
+   src/thrift/transport/TSaslClientTransport.cpp
+   src/thrift/transport/TSaslServerTransport.cpp
+   src/thrift/transport/TSasl.cpp
    src/thrift/server/TConnectedClient.cpp
    src/thrift/server/TServerFramework.cpp
    src/thrift/server/TSimpleServer.cpp
